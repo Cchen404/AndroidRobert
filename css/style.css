@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(13, 7, 48)
+}
+.main{
+    width: 800px;
+    height: 800px;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+.top{
+    width: 240px;
+    height: 120px;
+    margin: 0 auto;
+    padding-bottom: 0;
+    overflow: hidden;
+    position: relative;
+}
+.wire{
+    width: 240px;
+    height: 30px;
+}
+.wireL,.wireR{
+    width: 40px;
+    height: 6px;
+    border-radius: 3px;
+    background-color: rgb(2, 56, 2);
+}
+.wireL{
+    position: absolute;
+    bottom: 90px;
+    left: 40px;
+    transform: rotate(60deg);
+}
+.wireR{
+    position: absolute;
+    bottom: 90px;
+    left: 160px;
+    transform: rotate(115deg);
+}
+.head{
+    width: 240px;
+    height: 120px;
+    border-radius: 120px 120px 0 0;
+    background-color: rgb(2, 56, 2);
+}
+.eyeL,.eyeR{
+    width: 15px;
+    height: 15px;
+    float: left;
+    background-color: aliceblue;
+    border-radius: 100%;
+    margin-top: 35px;
+}
+.eyeL{
+    margin-left: 60px;
+}
+.eyeR{
+    margin-left: 90px;
+}
+.mid{
+    width: 339px;
+    height: 200px;
+    margin: 0 auto;
+    margin-top: 9px;
+}
+.body{
+    width: 233px;
+    height: 200px;
+    float: left;
+    margin-left: 9px;
+    background-color: rgb(2, 56, 2);
+    border-radius: 1px 1px 30px 30px;
+}
+.armL,.armR{
+    width: 44px;
+    height: 150px;
+    float: left;
+    background-color: rgb(2, 56, 2);
+    border-radius: 40px;
+}
+.armR{
+    margin-left: 9px;
+}
+.bottom{
+    width: 180px;
+    height: 80px;
+    margin: 0 auto;
+}
+.footL,.footR{
+    width: 44px;
+    height: 75px;
+    float: left;
+    margin-top: -1px;
+    background-color: rgb(2, 56, 2);
+    border-radius: 0 0 40px 40px;
+}
+.footL{
+    margin-left: 10px;
+}
+.footR{
+    margin-left: 70px;
+}
+.board{
+    width: 230px;
+    height: 50px;
+    background-color: rgba(61, 34, 4, 0.171);
+    margin: 0 auto;
+    margin-top: 10px;
+    border-radius: 20px;
+    text-align: center;
+    line-height: 50px;
+    font-weight: 600;
+    font-style: oblique;
+    color: rgb(104, 151, 192);
+    font-size: 20px;
+    text-shadow: 2px 1px 5px;
+}

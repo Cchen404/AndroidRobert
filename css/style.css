@@ -3,7 +3,9 @@
     padding: 0;
 }
 body{
-    background-color: rgb(13, 7, 48)
+    background-color: rgb(13, 7, 48);
+    -moz-background-color: rgb(13, 7, 48);
+    -webkit-background-color: rgb(13, 7, 48);
 }
 .main{
     width: 800px;
@@ -28,6 +30,8 @@ body{
     height: 6px;
     border-radius: 3px;
     background-color: rgb(2, 56, 2);
+    -moz-background-color: rgb(2, 56, 2);
+    -webkit-background-color: rgb(2, 56, 2);
 }
 .wireL{
     position: absolute;
@@ -46,6 +50,8 @@ body{
     height: 120px;
     border-radius: 120px 120px 0 0;
     background-color: rgb(2, 56, 2);
+    -moz-background-color: rgb(2, 56, 2);
+    -webkit-background-color: rgb(2, 56, 2);
 }
 .eyeL,.eyeR{
     width: 15px;
@@ -73,6 +79,8 @@ body{
     float: left;
     margin-left: 9px;
     background-color: rgb(2, 56, 2);
+    -moz-background-color: rgb(2, 56, 2);
+    -webkit-background-color: rgb(2, 56, 2);
     border-radius: 1px 1px 30px 30px;
 }
 .armL,.armR{
@@ -80,6 +88,8 @@ body{
     height: 150px;
     float: left;
     background-color: rgb(2, 56, 2);
+    -moz-background-color: rgb(2, 56, 2);
+    -webkit-background-color: rgb(2, 56, 2);
     border-radius: 40px;
 }
 .armR{
@@ -96,6 +106,8 @@ body{
     float: left;
     margin-top: -1px;
     background-color: rgb(2, 56, 2);
+    -moz-background-color: rgb(2, 56, 2);
+    -webkit-background-color: rgb(2, 56, 2);
     border-radius: 0 0 40px 40px;
 }
 .footL{
@@ -108,6 +120,8 @@ body{
     width: 230px;
     height: 50px;
     background-color: rgba(61, 34, 4, 0.171);
+    -moz-background-color: rgba(61, 34, 4, 0.171);
+    -webkit-background-color: rgba(61, 34, 4, 0.171);
     margin: 0 auto;
     margin-top: 10px;
     border-radius: 20px;
